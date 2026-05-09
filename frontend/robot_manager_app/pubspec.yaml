@@ -1,0 +1,46 @@
+name: robot_manager_app
+description: "Robot Manager App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # HTTP para comunicação com backend
+  http: ^1.2.2
+
+  # Persistência local (URL do servidor, configs, etc)
+  shared_preferences: ^2.3.2
+
+  file_picker: ^8.1.7
+  web_socket_channel: ^3.0.1
+  intl: ^0.20.2
+  provider: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Exemplo de assets (descomente se precisar)
+  # assets:
+  #   - assets/images/
+
+  # Exemplo de fontes (descomente se precisar)
+  # fonts:
+  #   - family: SpaceGrotesk
+  #     fonts:
+  #       - asset: assets/fonts/SpaceGrotesk-Regular.ttf
+  #       - asset: assets/fonts/SpaceGrotesk-Bold.ttf
+  #         weight: 700
